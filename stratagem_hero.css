@@ -1,0 +1,24 @@
+* {
+    background-color: black;
+    margin: 0px;
+    font-family: "Press Start 2P", cursive;
+}
+
+body {
+    overflow: hidden;
+}
+
+#canvas {
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div{
+    display: none;
+}
+
+h3 {
+    color: white;
+}
