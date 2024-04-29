@@ -310,16 +310,16 @@ function startGame() {
             let arrowicon;
 
             if (combo[c] == 1) {
-                arrowicon = new Images("upwhite.png", arrowXPos, arrowYPos, 60, 60);
+                arrowicon = new Images("./upwhite.png", arrowXPos, arrowYPos, 60, 60);
             }
             if (combo[c] == 2) {
-                arrowicon = new Images("rightwhite.png", arrowXPos, arrowYPos, 60, 60);
+                arrowicon = new Images("./rightwhite.png", arrowXPos, arrowYPos, 60, 60);
             }
             if (combo[c] == 3) {
-                arrowicon = new Images("downwhite.png", arrowXPos, arrowYPos, 60, 60);
+                arrowicon = new Images("./downwhite.png", arrowXPos, arrowYPos, 60, 60);
             }
             if (combo[c] == 4) {
-                arrowicon = new Images("leftwhite.png", arrowXPos, arrowYPos, 60, 60);
+                arrowicon = new Images("./leftwhite.png", arrowXPos, arrowYPos, 60, 60);
             }
             white_arrow_img.push(arrowicon);
         }
@@ -329,7 +329,7 @@ function startGame() {
 
 
 
-    let icon = new Images("coconut.webp", WIDTH * .35, HEIGHT * .14, WIDTH * .30, HEIGHT * .40);
+    let icon = new Images("./coconut.webp", WIDTH * .35, HEIGHT * .14, WIDTH * .30, HEIGHT * .40);
     icon.draw(ctx);
 
 
@@ -361,7 +361,7 @@ function startGame() {
             combo = [3, 4, 3, 1, 2];
             print_name("Machine gun");
             print_white_arrows(combo);
-            icons("Machine_Gun.webp");
+            icons("./Machine_Gun.webp");
         }
 
 
@@ -370,7 +370,7 @@ function startGame() {
             combo = [3, 4, 2, 1, 3];
             print_name("Anti-Material Rifle");
             print_white_arrows(combo);
-            icons("Anti-Material_Rifle.webp");
+            icons("./Anti-Material_Rifle.webp");
         }
 
 
@@ -379,7 +379,7 @@ function startGame() {
             combo = [3, 4, 3, 1, 1, 3];
             print_name("Stalwart");
             print_white_arrows(combo);
-            icons("Stalwart.webp");
+            icons("./Stalwart.webp");
         }
 
 
@@ -388,7 +388,7 @@ function startGame() {
             combo = [3, 3, 4, 1, 2];
             print_name("Expandable Anti-Tank");
             print_white_arrows(combo);
-            icons("Expendable_Anti-tank.webp");
+            icons("./Expendable_Anti-tank.webp");
         }
 
 
@@ -397,7 +397,7 @@ function startGame() {
             combo = [3, 4, 2, 2, 4];
             print_name("Recoilless Rifle");
             print_white_arrows(combo);
-            icons("Recoilless_Rifle.webp");
+            icons("./Recoilless_Rifle.webp");
         }
 
 
@@ -406,7 +406,7 @@ function startGame() {
             combo = [3, 4, 1, 3, 1];
             print_name("Flamethrower");
             print_white_arrows(combo);
-            icons("Flamethrower.webp");
+            icons("./Flamethrower.webp");
         }
 
 
@@ -415,7 +415,7 @@ function startGame() {
             combo = [3, 2, 4, 3, 3, 1, 1, 2];
             print_name("Autocannon");
             print_white_arrows(combo);
-            icons("Autocannon.webp");
+            icons("./Autocannon.webp");
         }
 
 
@@ -424,7 +424,7 @@ function startGame() {
             combo = [3, 2, 4, 3, 3, 1, 4, 3, 2];
             print_name("Railgun");
             print_white_arrows(combo);
-            icons("Railgun.webp");
+            icons("./Railgun.webp");
         }
 
 
@@ -433,7 +433,7 @@ function startGame() {
             combo = [3, 3, 1, 3, 3];
             print_name("Spear");
             print_white_arrows(combo);
-            icons("SPEAR_Launcher.webp");
+            icons("./SPEAR_Launcher.webp");
         }
 
 
@@ -442,7 +442,7 @@ function startGame() {
             combo = [2, 3, 4, 1, 1];
             print_name("Gatling Barrage");
             print_white_arrows(combo);
-            icons("Orbital_Gatling_Barrage.webp");
+            icons("./Orbital_Gatling_Barrage.webp");
         }
 
 
@@ -451,7 +451,7 @@ function startGame() {
             combo = [2, 2, 2];
             print_name("Airbust Strike");
             print_white_arrows(combo);
-            icons("Orbital_Airbust_Strike.webp");
+            icons("./Orbital_Airbust_Strike.webp");
         }
 
 
@@ -460,7 +460,7 @@ function startGame() {
             combo = [2, 3, 3, 4, 3, 2, 3, 3];
             print_name("120MM HE Barrage");
             print_white_arrows(combo);
-            icons("Orbital_120MM_HE_Barrage.webp");
+            icons("./Orbital_120MM_HE_Barrage.webp");
         }
 
 
@@ -469,7 +469,7 @@ function startGame() {
             combo = [2, 3, 3, 1, 1, 4, 3, 3, 3];
             print_name("380MM HE Barrage");
             print_white_arrows(combo);
-            icons("Orbital_380MM_HE_Barrage.webp");
+            icons("./Orbital_380MM_HE_Barrage.webp");
         }
 
 
@@ -478,7 +478,7 @@ function startGame() {
             combo = [2, 3, 2, 3, 2, 3];
             print_name("Walking Barrage");
             print_white_arrows(combo);
-            icons("Orbital_Walking_Barrage.webp");
+            icons("./Orbital_Walking_Barrage.webp");
         }
 
 
@@ -487,7 +487,7 @@ function startGame() {
             combo = [2, 1, 4, 1, 2, 4];
             print_name("Laser Strike");
             print_white_arrows(combo);
-            icons("Orbital_Laser.webp");
+            icons("./Orbital_Laser.webp");
         }
 
 
@@ -496,7 +496,7 @@ function startGame() {
             combo = [2, 3, 1, 3, 4];
             print_name("Railcannon Strike");
             print_white_arrows(combo);
-            icons("Orbital_Railcannon_Strike.webp");
+            icons("./Orbital_Railcannon_Strike.webp");
         }
 
 
@@ -505,7 +505,7 @@ function startGame() {
             combo = [1, 2, 2];
             print_name("Eagle Strafing Run");
             print_white_arrows(combo);
-            icons("Eagle_Strafing_Run.webp");
+            icons("./Eagle_Strafing_Run.webp");
         }
 
 
@@ -514,7 +514,7 @@ function startGame() {
             combo = [1, 2, 3, 2];
             print_name("Eagle Airstrike");
             print_white_arrows(combo);
-            icons("Eagle_Airstrike.webp");
+            icons("./Eagle_Airstrike.webp");
         }
 
 
@@ -523,7 +523,7 @@ function startGame() {
             combo = [1, 2, 3, 3, 2, 3];
             print_name("Eagle Cluster Bomb");
             print_white_arrows(combo);
-            icons("Eagle_Cluster_Bomb.webp");
+            icons("./Eagle_Cluster_Bomb.webp");
         }
 
 
@@ -532,7 +532,7 @@ function startGame() {
             combo = [1, 2, 3, 1];
             print_name("Eagle Napalm Airstrike");
             print_white_arrows(combo);
-            icons("Eagle_Napalm.webp");
+            icons("./Eagle_Napalm.webp");
         }
 
 
@@ -541,7 +541,7 @@ function startGame() {
             combo = [3, 1, 1, 3, 1];
             print_name("Jump Pack");
             print_white_arrows(combo);
-            icons("Jump_Pack.webp");
+            icons("./Jump_Pack.webp");
         }
 
 
@@ -550,7 +550,7 @@ function startGame() {
             combo = [1, 2, 1, 3];
             print_name("Eagle Smoke Strike");
             print_white_arrows(combo);
-            icons("Eagle_Smoke.webp");
+            icons("./Eagle_Smoke.webp");
         }
 
 
@@ -559,7 +559,7 @@ function startGame() {
             combo = [1, 3, 1, 4];
             print_name("Eagle 110MM Rocket Pods");
             print_white_arrows(combo);
-            icons("Eagle_110MM_Rocket_Pods.webp");
+            icons("./Eagle_110MM_Rocket_Pods.webp");
         }
 
 
@@ -568,7 +568,7 @@ function startGame() {
             combo = [1, 4, 3, 3, 3];
             print_name("Eagle 500KG Bomb");
             print_white_arrows(combo);
-            icons("Eagle_500kg_Bomb.webp");
+            icons("./Eagle_500kg_Bomb.webp");
         }
 
 
@@ -577,7 +577,7 @@ function startGame() {
             combo = [2, 2, 1];
             print_name("Orbital Precision Strike");
             print_white_arrows(combo);
-            icons("Orbital_Precision_Strike.webp");
+            icons("./Orbital_Precision_Strike.webp");
         }
 
 
@@ -586,7 +586,7 @@ function startGame() {
             combo = [2, 2, 3, 2];
             print_name("Orbital Gas Strike");
             print_white_arrows(combo);
-            icons("Orbital_Gas_Strike.webp");
+            icons("./Orbital_Gas_Strike.webp");
         }
 
 
@@ -595,7 +595,7 @@ function startGame() {
             combo = [2, 2, 4, 3];
             print_name("Orbital EMS Strike");
             print_white_arrows(combo);
-            icons("Orbital_EMS_Strike.webp");
+            icons("./Orbital_EMS_Strike.webp");
         }
 
 
@@ -604,7 +604,7 @@ function startGame() {
             combo = [2, 2, 3, 1];
             print_name("Orbital Smoke Strike");
             print_white_arrows(combo);
-            icons("Orbital_Smoke_Strike.webp");
+            icons("./Orbital_Smoke_Strike.webp");
         }
 
 
@@ -613,7 +613,7 @@ function startGame() {
             combo = [1, 3, 4, 2, 2, 4];
             print_name("HMG Emplacement");
             print_white_arrows(combo);
-            icons("HMG_Emplacement.webp");
+            icons("./HMG_Emplacement.webp");
         }
 
 
@@ -622,7 +622,7 @@ function startGame() {
             combo = [3, 1, 4, 2, 4, 3];
             print_name("Shield Generator Relay");
             print_white_arrows(combo);
-            icons("Shield_Generator_Relay.webp");
+            icons("./Shield_Generator_Relay.webp");
         }
 
 
@@ -631,7 +631,7 @@ function startGame() {
             combo = [3, 1, 2, 1, 4, 2];
             print_name("Tesla Tower");
             print_white_arrows(combo);
-            icons("Tesla_Tower.webp");
+            icons("./Tesla_Tower.webp");
         }
 
 
@@ -640,7 +640,7 @@ function startGame() {
             combo = [3, 4, 3, 1, 2];
             print_name("Anti-Personnel Minefield");
             print_white_arrows(combo);
-            icons("Anti-Personnel_Minefield.webp");
+            icons("./Anti-Personnel_Minefield.webp");
         }
 
 
@@ -649,7 +649,7 @@ function startGame() {
             combo = [3, 4, 3, 1, 1, 3];
             print_name("Supply Pack");
             print_white_arrows(combo);
-            icons("Supply_Pack.webp");
+            icons("./Supply_Pack.webp");
         }
 
 
@@ -658,7 +658,7 @@ function startGame() {
             combo = [3, 4, 3, 1, 4, 3, 3];
             print_name("Grenade Launcher");
             print_white_arrows(combo);
-            icons("Grenade_Launcher.webp");
+            icons("./Grenade_Launcher.webp");
         }
 
 
@@ -667,7 +667,7 @@ function startGame() {
             combo = [3, 4, 3, 1, 4];
             print_name("Laser Cannon");
             print_white_arrows(combo);
-            icons("Laser_Cannon.webp");
+            icons("./Laser_Cannon.webp");
         }
 
 
@@ -676,7 +676,7 @@ function startGame() {
             combo = [3, 4, 4, 3];
             print_name("Incendiary Mines");
             print_white_arrows(combo);
-            icons("Incendiary_Mines.webp");
+            icons("./Incendiary_Mines.webp");
         }
 
 
@@ -685,7 +685,7 @@ function startGame() {
             combo = [3, 4, 3, 1, 4, 3, 3];
             print_name("Guard Dog Rover");
             print_white_arrows(combo);
-            icons("Guard_Dog_Rover.webp");
+            icons("./Guard_Dog_Rover.webp");
         }
 
 
@@ -694,7 +694,7 @@ function startGame() {
             combo = [3, 4, 1, 1, 2];
             print_name("Ballistic Shield Backpack");
             print_white_arrows(combo);
-            icons("Ballistic_Shield_Backpack.webp");
+            icons("./Ballistic_Shield_Backpack.webp");
         }
 
 
@@ -703,7 +703,7 @@ function startGame() {
             combo = [3, 2, 1, 4, 3];
             print_name("Arc Thrower");
             print_white_arrows(combo);
-            icons("Arc_Thrower.webp");
+            icons("./Arc_Thrower.webp");
         }
 
 
@@ -712,7 +712,7 @@ function startGame() {
             combo = [3, 1, 4, 3, 2, 2];
             print_name("Shield Generator Pack");
             print_white_arrows(combo);
-            icons("Shield_Generator_Pack.webp");
+            icons("./Shield_Generator_Pack.webp");
         }
 
 
@@ -721,7 +721,7 @@ function startGame() {
             combo = [3, 1, 2, 2, 1];
             print_name("Machine Gun Sentry");
             print_white_arrows(combo);
-            icons("Machine_Gun_Sentry.webp");
+            icons("./Machine_Gun_Sentry.webp");
         }
 
 
@@ -730,7 +730,7 @@ function startGame() {
             combo = [3, 1, 2, 4, 3];
             print_name("Gatling Sentry");
             print_white_arrows(combo);
-            icons("Gatling_Sentry.webp");
+            icons("./Gatling_Sentry.webp");
         }
 
 
@@ -739,7 +739,7 @@ function startGame() {
             combo = [3, 1, 2, 2, 3];
             print_name("Mortar Sentry");
             print_white_arrows(combo);
-            icons("Mortar_Sentry.webp");
+            icons("./Mortar_Sentry.webp");
         }
 
 
@@ -748,7 +748,7 @@ function startGame() {
             combo = [3, 1, 2, 2, 3];
             print_name("Guard Dog");
             print_white_arrows(combo);
-            icons("Guard_Dog.webp");
+            icons("./Guard_Dog.webp");
         }
 
 
@@ -757,7 +757,7 @@ function startGame() {
             combo = [3, 1, 2, 1, 4, 1];
             print_name("Autocannon Sentry");
             print_white_arrows(combo);
-            icons("Autocannon_Sentry.webp");
+            icons("./Autocannon_Sentry.webp");
         }
 
 
@@ -766,7 +766,7 @@ function startGame() {
             combo = [3, 1, 2, 2, 4];
             print_name("Rocket Sentry");
             print_white_arrows(combo);
-            icons("Rocket_Sentry.webp");
+            icons("./Rocket_Sentry.webp");
         }
 
 
@@ -775,7 +775,7 @@ function startGame() {
             combo = [3, 3, 1, 1, 4];
             print_name("EMS Mortar Sentry");
             print_white_arrows(combo);
-            icons("EMS_Mortar.webp");
+            icons("./EMS_Mortar.webp");
         }
 
 
@@ -784,7 +784,7 @@ function startGame() {
             combo = [1, 3, 2, 4, 1];
             print_name("Reinforce");
             print_white_arrows(combo);
-            icons("Reinforce.webp");
+            icons("./Reinforce.webp");
         }
 
 
@@ -793,7 +793,7 @@ function startGame() {
             combo = [1, 3, 2, 1];
             print_name("SOS Beacon");
             print_white_arrows(combo);
-            icons("SOS_Beacon.webp");
+            icons("./SOS_Beacon.webp");
         }
 
 
@@ -802,7 +802,7 @@ function startGame() {
             combo = [3, 1, 3, 1];
             print_name("Super Earth Flag");
             print_white_arrows(combo);
-            icons("Super_Earth_Flag.jpg");
+            icons("./Super_Earth_Flag.jpg");
         }
 
 
@@ -811,7 +811,7 @@ function startGame() {
             combo = [4, 2, 1, 1, 1];
             print_name("Upload Data");
             print_white_arrows(combo);
-            icons("DeliverSSSD.webp");
+            icons("./DeliverSSSD.webp");
         }
 
 
@@ -820,7 +820,7 @@ function startGame() {
             combo = [3, 1, 4, 3, 1, 2, 3, 1];
             print_name("Hell Bomb");
             print_white_arrows(combo);
-            icons("Hellbomb.webp");
+            icons("./Hellbomb.webp");
         }
 
 
@@ -829,7 +829,7 @@ function startGame() {
             combo = [1, 1, 4, 1, 2];
             print_name("Eagle Rearm");
             print_white_arrows(combo);
-            icons("Eagle_Rearm.webp");
+            icons("./Eagle_Rearm.webp");
         }
 
 
@@ -838,7 +838,7 @@ function startGame() {
             combo = [4, 3, 2, 1, 4, 3, 3];
             print_name("Patriot Exosuit");
             print_white_arrows(combo);
-            icons("Patriot_Exosuit.webp");
+            icons("./Patriot_Exosuit.webp");
         }
         return combo;
     }
@@ -910,16 +910,16 @@ function startGame() {
 
                 if (player_guess[c] == combo[c]) {
                     if (combo[c] == 1) {
-                        arrowicon = new Images("upgreen.png", arrowXPos, arrowYPos, 60, 60);
+                        arrowicon = new Images("./upgreen.png", arrowXPos, arrowYPos, 60, 60);
                     }
                     if (combo[c] == 2) {
-                        arrowicon = new Images("rightgreen.png", arrowXPos, arrowYPos, 60, 60);
+                        arrowicon = new Images("./rightgreen.png", arrowXPos, arrowYPos, 60, 60);
                     }
                     if (combo[c] == 3) {
-                        arrowicon = new Images("downgreen.png", arrowXPos, arrowYPos, 60, 60);
+                        arrowicon = new Images("./downgreen.png", arrowXPos, arrowYPos, 60, 60);
                     }
                     if (combo[c] == 4) {
-                        arrowicon = new Images("leftgreen.png", arrowXPos, arrowYPos, 60, 60);
+                        arrowicon = new Images("./leftgreen.png", arrowXPos, arrowYPos, 60, 60);
                     }
                     green_arrow_img.push(arrowicon);
                 }
